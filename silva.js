@@ -28,7 +28,7 @@ const { handleMessages } = require('./handler');
 const config = require('./config.js');
 const store = makeInMemoryStore({ logger: P({ level: 'silent' }) });
 
-const prefix = config.PREFIX || '.';
+const prefix = config.PREFIX || '-';
 const tempDir = path.join(os.tmpdir(), 'silva-cache');
 const port = process.env.PORT || 25680;
 const pluginsDir = path.join(__dirname, 'plugins');
@@ -253,7 +253,7 @@ ${configTable}
 *📝 Description:*
 ${config.DESCRIPTION}
 
-_⚡ Powered by Silva Tech Inc._
+_⚡ Powered by IKHLAQ AHMED Inc._
     `.trim();
 
     try {
@@ -265,7 +265,7 @@ _⚡ Powered by Silva Tech Inc._
                     title: `${config.BOT_NAME} Online`,
                     body: "Enhanced multi-device WhatsApp bot",
                     thumbnailUrl: "https://files.catbox.moe/5uli5p.jpeg",
-                    sourceUrl: "https://github.com/SilvaTechB/silva-md-bot",
+                    sourceUrl: "https://github.com/ikhlaqahmedbugti3/silva-md-bot",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
@@ -765,7 +765,7 @@ async function connectToWhatsApp() {
                                 title: `${config.BOT_NAME} speed`,
                                 body: "Explore the speed",
                                 thumbnailUrl: "https://files.catbox.moe/5uli5p.jpeg",
-                                sourceUrl: "https://github.com/SilvaTechB/silva-md-bot",
+                                sourceUrl: "https://github.com/ikhlaqahmedbugti3/silva-md-bot",
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
