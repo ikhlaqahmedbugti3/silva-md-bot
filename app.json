@@ -1,6 +1,6 @@
 {
   "name": "silva-md",
-  "description": "Javascript WhatsApp bot made by Silva.",
+  "description": "Javascript WhatsApp bot made by IKHLAQ AHMED.",
   "keywords": ["silva-md", "whatsapp", "baileys", "bot"],
   "success_url": "/",
   "stack": "heroku-24",
@@ -33,12 +33,12 @@
     "PREFIX": {
       "description": "Bot command prefix.",
       "required": false,
-      "value": "."
+      "value": "-"
     },
     "MODE": {
       "description": "Bot mode: public, private, group, inbox.",
       "required": false,
-      "value": "public"
+      "value": "private"
     },
     "AUTO_STATUS_REACT": {
       "description": "Enable auto status reactions.",
@@ -68,12 +68,12 @@
     "OWNER_NAME": {
       "description": "Bot owner name.",
       "required": false,
-      "value": "Silva MD"
+      "value": "IKHLAQ AHMED"
     },
     "OWNER_NUMBER": {
       "description": "Owner WhatsApp number.",
       "required": false,
-      "value": "254700143167"
+      "value": "923334104708"
     },
     "BOT_NAME": {
       "description": "Bot display name.",
@@ -142,3 +142,4 @@
     }
   ]
 }
+
